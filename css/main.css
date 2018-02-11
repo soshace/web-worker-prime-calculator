@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.leftPanel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    border-right: 1px solid dimgray;
+    padding: 5px;
+}
+
+.rightPanel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    padding: 5px;
+}
+
+.list {
+    width: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 500px;
+    margin-top: 5px;
+}
+
+.list .entry {
+    height: 30px;
+    padding: 4px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress {
+    width: 80%;
+}
+
+.progress-bar {
+    text-align: center;
+}
